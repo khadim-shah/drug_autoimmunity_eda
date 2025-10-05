@@ -5,14 +5,19 @@
 <h1 align="center">🧬 Drug Autoimmunity — Exploratory Data Analysis & Prediction</h1>
 
 <p align="center">
-This project explores <b>drug-induced autoimmunity</b> using advanced data analysis and machine learning.<br>
-It performs <b>Exploratory Data Analysis (EDA)</b>, <b>feature selection</b>, and <b>predictive modeling</b> using molecular descriptors from RDKit.
+  <a href="https://www.python.org/downloads/release/python-310/"><img src="https://img.shields.io/badge/python-3.10%2B-blue.svg" alt="Python 3.10+"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"></a>
+  <a href="https://github.com/khadim-shah/drug_autoimmunity_eda/stargazers"><img src="https://img.shields.io/github/stars/khadim-shah/drug_autoimmunity_eda.svg?style=social" alt="GitHub Stars"></a>
+  <a href="https://github.com/khadim-shah/drug_autoimmunity_eda/issues"><img src="https://img.shields.io/github/issues/khadim-shah/drug_autoimmunity_eda.svg" alt="Issues"></a>
+  <a href="https://github.com/khadim-shah/drug_autoimmunity_eda/commits/main"><img src="https://img.shields.io/github/last-commit/khadim-shah/drug_autoimmunity_eda.svg" alt="Last Commit"></a>
 </p>
 
 ---
 
 ## 🚀 Project Overview
+<p align="center">
 This repository demonstrates a full workflow for molecular data science — from data cleaning to model explainability.
+</p>
 
 **Key Objectives**
 - 🧹 Clean and preprocess RDKit descriptor datasets  
@@ -33,6 +38,7 @@ All visual outputs are saved automatically to: `reports/figures/`
 ---
 
 ## 📂 Repository Structure
+```
 drug_autoimmunity_eda/
 │
 ├── data/
@@ -55,6 +61,7 @@ drug_autoimmunity_eda/
 │
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
@@ -122,14 +129,12 @@ jupyter notebook notebooks/01_EDA.ipynb
 
 ## 🧑‍💻 Author
 
-Khadim Shah
-
 <p align="center">
-  <a href="mailto:khadimshahswt@gmail.com"><img src="https://img.icons8.com/ios-filled/30/3498db/email.png" alt="Email"/></a> &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/khadim-shah/"><img src="https://img.icons8.com/ios-filled/30/0a66c2/linkedin.png" alt="LinkedIn"/></a> &nbsp;&nbsp;
-  <a href="https://github.com/khadim-shah"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" alt="GitHub"/></a> &nbsp;&nbsp;
-  <a href="https://orcid.org/0009-0007-7110-9010"><img src="https://img.icons8.com/ios-filled/30/00cc66/orcid.png" alt="ORCID"/></a> &nbsp;&nbsp;
-  <a href="https://www.kaggle.com/khadimshah"><img src="https://img.icons8.com/windows/30/20BEFF/kaggle.png" alt="Kaggle"/></a>
+  <a href="mailto:khadimshahswt@gmail.com" title="Email"><img src="https://img.icons8.com/ios-filled/30/3498db/email.png" alt="Email"/></a> &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/khadim-shah/" title="LinkedIn"><img src="https://img.icons8.com/ios-filled/30/0a66c2/linkedin.png" alt="LinkedIn"/></a> &nbsp;&nbsp;
+  <a href="https://github.com/khadim-shah" title="GitHub"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" alt="GitHub"/></a> &nbsp;&nbsp;
+  <a href="https://orcid.org/0009-0007-7110-9010" title="ORCID"><img src="https://img.icons8.com/ios-filled/30/00cc66/orcid.png" alt="ORCID"/></a> &nbsp;&nbsp;
+  <a href="https://www.kaggle.com/khadimshah" title="Kaggle"><img src="https://img.icons8.com/windows/30/20BEFF/kaggle.png" alt="Kaggle"/></a>
 </p>
 
 ---
