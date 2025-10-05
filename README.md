@@ -2,10 +2,19 @@
   <img src="reports/figures/banner_drug_autoimmunity.png" alt="Drug Autoimmunity Banner" width="100%">
 </p>
 
+<p align="center">
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10-blue.svg?logo=python&logoColor=white"></a>
+  <a href="https://scikit-learn.org/"><img src="https://img.shields.io/badge/Scikit--Learn-ML-orange.svg?logo=scikit-learn&logoColor=white"></a>
+  <a href="https://www.rdkit.org/"><img src="https://img.shields.io/badge/RDKit-Cheminformatics-green.svg"></a>
+  <a href="https://shap.readthedocs.io/"><img src="https://img.shields.io/badge/SHAP-Explainability-red.svg"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+  <a href="https://github.com/khadim-shah/drug_autoimmunity_eda/commits/main"><img src="https://img.shields.io/github/last-commit/khadim-shah/drug_autoimmunity_eda?color=brightgreen"></a>
+</p>
+
 # 🧬 Drug Autoimmunity — Exploratory Data Analysis & Prediction
 
 This project explores **drug-induced autoimmunity** using advanced data analysis and machine learning.  
-It performs **Exploratory Data Analysis (EDA)**, **feature selection**, and **predictive modeling** using molecular descriptors from RDKit.
+It performs **Exploratory Data Analysis (EDA)**, **feature selection**, and **predictive modeling** using molecular descriptors from **RDKit**.
 
 ---
 
@@ -78,7 +87,7 @@ conda install -c conda-forge rdkit -y
 # 4️⃣ Run the notebook
 jupyter notebook notebooks/01_EDA.ipynb
 📊 Results & Visualizations
-<p align="center"> <img src="reports/figures/label_distribution.png" alt="Label Distribution" width="60%"> </p> <p align="center"> <img src="reports/figures/correlation_heatmap.png" alt="Correlation Heatmap" width="60%"> </p> <p align="center"> <img src="reports/figures/feature_importance.png" alt="Feature Importance" width="60%"> </p> <p align="center"> <img src="reports/figures/shap_feature_importance.png" alt="SHAP Feature Importance" width="60%"> </p>
+<p align="center"> <img src="reports/figures/label_distribution.png" alt="Label Distribution" width="65%"> </p> <p align="center"> <img src="reports/figures/correlation_heatmap.png" alt="Correlation Heatmap" width="65%"> </p> <p align="center"> <img src="reports/figures/feature_importance.png" alt="Feature Importance" width="65%"> </p> <p align="center"> <img src="reports/figures/shap_feature_importance.png" alt="SHAP Feature Importance" width="65%"> </p>
 🧰 Tech Stack
 Tool	Purpose
 🐍 Python 3.10	Core language
@@ -112,4 +121,4 @@ Scikit-learn developers for ML utilities
 
 SHAP team for explainability frameworks
 
-<p align="center"> ⭐ If you found this project helpful, please consider starring the repository! <br>© 2025 <b>Khadim Shah</b> — All Rights Reserved. </p>
+<p align="center"> ⭐ If you found this project helpful, please consider starring the repository! <br>© 2025 <b>Khadim Shah</b> — All Rights Reserved. </p> 
