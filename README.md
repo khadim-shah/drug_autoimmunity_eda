@@ -8,7 +8,6 @@
   <a href="https://www.rdkit.org/"><img src="https://img.shields.io/badge/RDKit-Cheminformatics-green.svg"></a>
   <a href="https://shap.readthedocs.io/"><img src="https://img.shields.io/badge/SHAP-Explainability-red.svg"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
-  <a href="https://github.com/khadim-shah/drug_autoimmunity_eda/commits/main"><img src="https://img.shields.io/github/last-commit/khadim-shah/drug_autoimmunity_eda?color=brightgreen"></a>
 </p>
 
 # 🧬 Drug Autoimmunity — Exploratory Data Analysis & Prediction
@@ -40,6 +39,7 @@ All visual outputs are saved automatically to `reports/figures/`.
 ---
 
 ## 📂 Repository Structure
+
 drug_autoimmunity_eda/
 │
 ├── data/
@@ -121,4 +121,6 @@ Scikit-learn developers for ML utilities
 
 SHAP team for explainability frameworks
 
-<p align="center"> ⭐ If you found this project helpful, please consider starring the repository! <br>© 2025 <b>Khadim Shah</b> — All Rights Reserved. </p> 
+🌐 Connect With Me
+<p align="center"> <a href="mailto:khadimshahswt@gmail.com"><img src="https://img.icons8.com/ios-filled/40/3498db/new-post.png" alt="Email"></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/khadim-shah/"><img src="https://img.icons8.com/ios-filled/40/0e76a8/linkedin.png" alt="LinkedIn"></a> &nbsp;&nbsp; <a href="https://github.com/khadim-shah"><img src="https://img.icons8.com/ios-glyphs/40/333333/github.png" alt="GitHub"></a> &nbsp;&nbsp; <a href="https://orcid.org/0009-0007-7110-9010"><img src="https://img.icons8.com/ios-filled/40/228B22/biotech.png" alt="ORCID"></a> </p>
+<p align="center"> ⭐ If you found this project helpful, please consider starring the repository! <br>© 2025 <b>Khadim Shah</b> — All Rights Reserved. </p>
