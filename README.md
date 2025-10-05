@@ -70,7 +70,7 @@ Copy code
 
 ## ⚙️ Installation & Setup
 
-```bash
+bash
 # 1️⃣ Clone this repository
 git clone https://github.com/khadim-shah/drug_autoimmunity_eda.git
 cd drug_autoimmunity_eda
