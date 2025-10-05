@@ -1,38 +1,91 @@
-# ==================================
-# Python & Environment Files
-# ==================================
+# ======================================
+# 🐍 PYTHON & CONDA ENVIRONMENTS
+# ======================================
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
 *.so
 *.dll
+*.pyd
+*.pyo
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# Conda / Virtual environments
 .env
-.venv/
+.venv
 env/
 venv/
-.ipynb_checkpoints/
-.vscode/
-.DS_Store
+*.env
+*.venv
 
-# ==================================
-# Data Files
-# (Keep local, don't upload large datasets)
-# ==================================
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ======================================
+# 📁 DATA FILES (KEEP LOCAL, DO NOT UPLOAD RAW DATA)
+# ======================================
 data/*.csv
 data/*.xlsx
+data/*.tsv
+data/*.json
+data/*.parquet
+!data/final_cleaned_dataset.csv  # ✅ keep processed/cleaned dataset if needed for reproducibility
 
-# ==================================
-# Reports & Figures
-# (We will keep figures visible — so DO NOT ignore .png)
-# ==================================
-# reports/figures/*.png   ← ❌ Commented out to show visuals
+# ======================================
+# 🧪 NOTEBOOK OUTPUTS
+# ======================================
+notebooks/*.nbconvert.ipynb
+notebooks/*-checkpoint.ipynb
 
-# ==================================
-# System & Temporary Files
-# ==================================
-Thumbs.db
-*.log
-*.tmp
+# ======================================
+# 📊 REPORTS & FIGURES
+# (✅ KEEP FIGURES FOR README VISUALS)
+# ======================================
+# reports/figures/*.png  ❌ <-- commented out to keep visuals visible on GitHub
+!reports/figures/banner_drug_autoimmunity.png
+!reports/figures/label_distribution.png
+!reports/figures/correlation_heatmap.png
+!reports/figures/feature_importance.png
+!reports/figures/shap_feature_importance.png
+!reports/figures/confusion_matrix.png
+
+# Keep other result files
+!reports/top_features_rfe.csv
+
+# ======================================
+# ⚙️ SYSTEM, CACHE & TEMP FILES
+# ======================================
+*.pid
+*.seed
+*.out
 *.bak
+*.old
+*.orig
+*.rej
+
+# ======================================
+# 🧩 MISC
+# ======================================
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# ======================================
+# 🔍 SPECIAL FILES TO KEEP
+# ======================================
+!README.md
+!LICENSE
+!requirements.txt
+
 
