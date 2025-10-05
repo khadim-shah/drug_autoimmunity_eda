@@ -1,5 +1,5 @@
 # =============================
-# Python & Conda environment
+# Python & Environment Files
 # =============================
 __pycache__/
 *.pyc
@@ -7,6 +7,8 @@ __pycache__/
 *.pyd
 *.so
 *.dll
+
+# Virtual environments
 .env
 .venv/
 env/
@@ -14,23 +16,26 @@ venv/
 .ipynb_checkpoints/
 .vscode/
 .DS_Store
+Thumbs.db
 
 # =============================
-# Data files (keep local, don't upload big raw data)
+# Data Files (keep raw data local)
 # =============================
 data/*.csv
 data/*.xlsx
+!data/final_cleaned_dataset.csv  # keep the final processed dataset if small
 
 # =============================
-# Reports and figures
-# (optional: comment these lines if you want to show visuals on GitHub)
+# Reports and Figures
 # =============================
-reports/figures/*.png
+# We will keep figures visible on GitHub for README rendering
+!reports/figures/*.png
+!reports/figures/*.jpg
+!reports/figures/*.jpeg
 
 # =============================
-# System and temporary files
+# Logs and Temporary Files
 # =============================
-Thumbs.db
 *.log
 *.tmp
 *.bak
