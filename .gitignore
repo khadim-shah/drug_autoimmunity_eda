@@ -1,14 +1,12 @@
-# =============================
+# ==================================
 # Python & Environment Files
-# =============================
+# ==================================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.so
 *.dll
-
-# Virtual environments
 .env
 .venv/
 env/
@@ -16,26 +14,25 @@ venv/
 .ipynb_checkpoints/
 .vscode/
 .DS_Store
-Thumbs.db
 
-# =============================
-# Data Files (keep raw data local)
-# =============================
+# ==================================
+# Data Files
+# (Keep local, don't upload large datasets)
+# ==================================
 data/*.csv
 data/*.xlsx
-!data/final_cleaned_dataset.csv  # keep the final processed dataset if small
 
-# =============================
-# Reports and Figures
-# =============================
-# We will keep figures visible on GitHub for README rendering
-!reports/figures/*.png
-!reports/figures/*.jpg
-!reports/figures/*.jpeg
+# ==================================
+# Reports & Figures
+# (We will keep figures visible — so DO NOT ignore .png)
+# ==================================
+# reports/figures/*.png   ← ❌ Commented out to show visuals
 
-# =============================
-# Logs and Temporary Files
-# =============================
+# ==================================
+# System & Temporary Files
+# ==================================
+Thumbs.db
 *.log
 *.tmp
 *.bak
+
