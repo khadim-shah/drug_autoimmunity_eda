@@ -1,0 +1,17 @@
+# Core Python packages
+numpy==1.26.4
+pandas==2.2.3
+matplotlib==3.9.2
+seaborn==0.13.2
+scikit-learn==1.5.2
+scipy==1.14.1
+
+# Machine Learning & Explainability
+shap==0.45.1
+
+# Cheminformatics
+rdkit-pypi==2022.9.5
+
+# Notebook utilities
+jupyterlab==4.2.5
+ipykernel==6.29.5

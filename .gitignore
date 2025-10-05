@@ -1,0 +1,36 @@
+# =============================
+# Python & Conda environment
+# =============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+.env
+.venv/
+env/
+venv/
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+
+# =============================
+# Data files (keep local, don't upload big raw data)
+# =============================
+data/*.csv
+data/*.xlsx
+
+# =============================
+# Reports and figures
+# (optional: comment these lines if you want to show visuals on GitHub)
+# =============================
+reports/figures/*.png
+
+# =============================
+# System and temporary files
+# =============================
+Thumbs.db
+*.log
+*.tmp
+*.bak
