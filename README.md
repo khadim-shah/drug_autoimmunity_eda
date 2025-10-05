@@ -1,22 +1,24 @@
-<!-- Banner -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/khadim-shah/drug_autoimmunity_eda/main/reports/figures/banner_drug_autoimmunity.png" alt="Drug Autoimmunity EDA Banner" width="100%">
+  <img src="reports/figures/banner_drug_autoimmunity.png" alt="Drug Autoimmunity EDA Banner" width="100%">
 </p>
 
-<h1 align="center">🧬 Drug Autoimmunity — Exploratory Data Analysis & Prediction</h1>
+# 🧬 Drug Autoimmunity — Exploratory Data Analysis & Prediction
 
 <p align="center">
-  <a href="https://github.com/khadim-shah/drug_autoimmunity_eda/stargazers"><img src="https://img.shields.io/github/stars/khadim-shah/drug_autoimmunity_eda?color=gold&style=for-the-badge"></a>
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python"></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"></a>
+<a href="https://github.com/khadim-shah"><img src="https://img.shields.io/badge/GitHub-khadim--shah-black?logo=github" /></a>
+<a href="https://www.linkedin.com/in/khadim-shah/"><img src="https://img.shields.io/badge/LinkedIn-Khadim%20Shah-blue?logo=linkedin" /></a>
+<a href="https://orcid.org/0009-0007-7110-9010"><img src="https://img.shields.io/badge/ORCID-0009--0007--7110--9010-green?logo=orcid" /></a>
+<a href="mailto:khadimshahswt@gmail.com"><img src="https://img.shields.io/badge/Email-khadimshahswt%40gmail.com-red?logo=gmail" /></a>
 </p>
 
 ---
 
 ## 🚀 Project Overview
-This project demonstrates an **advanced Exploratory Data Analysis (EDA)** and **machine learning pipeline** using **RDKit molecular descriptor datasets** to study potential **drug-induced autoimmunity**.
 
-### It covers:
+This project demonstrates an advanced **Exploratory Data Analysis (EDA)** and **machine learning pipeline** using **RDKit molecular descriptor datasets** to investigate potential drug-induced autoimmunity.
+
+It covers:
+
 - 🧹 Data cleaning and preprocessing  
 - 📊 Exploratory data analysis and correlation visualization  
 - 🤖 Model training using Random Forest  
@@ -27,14 +29,16 @@ All results and plots are automatically saved in `reports/figures/`.
 ---
 
 ## 🧠 Key Highlights
+
 ✅ Comprehensive and reproducible EDA  
-✅ RFE and SHAP-based feature selection  
+✅ Feature selection with RFE and SHAP importance  
 ✅ Publication-ready plots  
-✅ Portfolio-optimized GitHub layout  
+✅ GitHub portfolio-optimized layout  
 
 ---
 
 ## 📂 Repository Structure
+
 drug_autoimmunity_eda/
 │
 ├── data/
@@ -50,9 +54,9 @@ drug_autoimmunity_eda/
 │ │ ├── banner_drug_autoimmunity.png
 │ │ ├── label_distribution.png
 │ │ ├── correlation_heatmap.png
-│ │ ├── feature_importance.png
 │ │ ├── shap_feature_importance.png
-│ │ └── confusion_matrix.png
+│ │ ├── confusion_matrix.png
+│ │ └── sample_feature_distribution.png
 │ └── top_features_rfe.csv
 │
 ├── requirements.txt
@@ -65,7 +69,7 @@ Copy code
 
 ## ⚙️ Installation & Setup
 
-bash
+```bash
 # 1️⃣ Clone this repository
 git clone https://github.com/khadim-shah/drug_autoimmunity_eda.git
 cd drug_autoimmunity_eda
@@ -76,26 +80,26 @@ conda activate drug_autoimmune
 
 # 3️⃣ Install dependencies
 pip install -r requirements.txt
-# (or recommended)
+# or (recommended)
 conda install -c conda-forge rdkit -y
 
 # 4️⃣ Run the notebook
 jupyter notebook notebooks/01_EDA.ipynb
 📊 Results & Visualizations
 Visualization	Description
-<img src="https://raw.githubusercontent.com/khadim-shah/drug_autoimmunity_eda/main/reports/figures/label_distribution.png" width="70%">	Label Distribution
-<img src="https://raw.githubusercontent.com/khadim-shah/drug_autoimmunity_eda/main/reports/figures/correlation_heatmap.png" width="70%">	Correlation Heatmap
-<img src="https://raw.githubusercontent.com/khadim-shah/drug_autoimmunity_eda/main/reports/figures/feature_importance.png" width="70%">	Feature Importance
-<img src="https://raw.githubusercontent.com/khadim-shah/drug_autoimmunity_eda/main/reports/figures/shap_feature_importance.png" width="70%">	SHAP Feature Importance
-<img src="https://raw.githubusercontent.com/khadim-shah/drug_autoimmunity_eda/main/reports/figures/confusion_matrix.png" width="70%">	Confusion Matrix
+Dataset label balance
+Feature correlations
+Variance-based top features
+	Model explainability
+Model evaluation
 
 🧰 Tech Stack
 Tool	Purpose
-🐍 Python 3.10	Programming Language
-🧮 Pandas / NumPy	Data Handling
+🐍 Python 3.10	Core Programming Language
+🧮 Pandas / NumPy	Data Processing
 📊 Matplotlib / Seaborn	Visualization
 🤖 Scikit-learn	Machine Learning
-⚗️ RDKit	Chemical Descriptors
+⚗️ RDKit	Molecular Descriptor Generation
 🔍 SHAP	Model Explainability
 
 🧑‍💻 Author
@@ -108,18 +112,18 @@ Khadim Shah
 🏁 Next Steps
 ⚡ Add advanced ML models (XGBoost, LightGBM)
 
-🌐 Build a Streamlit dashboard
+🌐 Develop a Streamlit dashboard
 
 🚀 Deploy for interactive predictions
 
 📜 License
-Licensed under the MIT License — see the LICENSE file for details.
+This project is licensed under the MIT License — see the LICENSE file for details.
 
 🙌 Acknowledgements
 RDKit community for cheminformatics tools
 
 Scikit-learn developers for ML utilities
 
-SHAP contributors for model explainability
+SHAP contributors for model interpretability
 
-<p align="center"> ⭐ If you found this project helpful, please consider starring the repository! <br>© 2025 <b>Khadim Shah</b> — All Rights Reserved. </p>
+<p align="center"> ⭐ If you found this project helpful, please consider starring the repository! <br> © 2025 <b>Khadim Shah</b> — All Rights Reserved. </p>
